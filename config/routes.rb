@@ -1,4 +1,10 @@
 RestaurantWebsite::Application.routes.draw do
+  get "pages/Home"
+
+  get "pages/Menu"
+
+  get "pages/ContactUs"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
